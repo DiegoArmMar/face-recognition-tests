@@ -4,3 +4,5 @@
 **/*.dnn
 **/*.jpg
 **/*.png
+.vscode
+.ipynb_checkpoints
