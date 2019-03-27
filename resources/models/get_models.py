@@ -1,7 +1,7 @@
 import bz2
 from glob import glob
 
-compressed_models_directory = '../dependencies/dlib-models/*.bz2'
+compressed_models_directory = '../../dependencies/dlib-models/*.bz2'
 compressed_models_paths = glob(compressed_models_directory)
 buffer_size = 10240 # 10k
 

@@ -1,6 +1,6 @@
 import cv2
 
-color = (0,0,255)
+color = (0,0,255) #BGR format
 radius = 1
 margin = 1
 
