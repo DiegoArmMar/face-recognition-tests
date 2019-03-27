@@ -23,7 +23,11 @@ photos_black_widow = [
   'https://kanto.legiaodosherois.com.br/w750-h393-gnw-cfill-q80/wp-content/uploads/2017/04/legiao_KDMv8_31kgu52N9XiCGHOm4ISxLZfcyonEpWw7bP0B.jpg.jpeg',
 ]
 
-
+photos_avengers = [
+  'http://4.bp.blogspot.com/-XFJtUkzzrjo/T5odX2l2UBI/AAAAAAAACOU/mLeo1-UzkFs/s1600/vingador.jpg',
+  'https://d.ibtimes.co.uk/en/full/1402568/avengers-age-ultron.jpg',
+  'http://geeksoncoffee.com/wp-content/uploads/2019/02/captain-marvel-avengers.jpg'
+]
 
 def dowload_photos(links, prefix_name):
   count = 1
@@ -40,3 +44,4 @@ def dowload_photos(links, prefix_name):
 
 dowload_photos(photos_silvio_santos, 'ss')
 dowload_photos(photos_black_widow, 'bw')
+dowload_photos(photos_avengers, 'av')
