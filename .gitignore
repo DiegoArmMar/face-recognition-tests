@@ -6,3 +6,5 @@
 **/*.png
 .vscode
 .ipynb_checkpoints
+**/*.npy
+
